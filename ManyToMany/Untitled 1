@@ -1,0 +1,30 @@
+post
+
+http://localhost:8080/student
+
+request
+
+{
+        "id": 3,
+        "name": "Sridhar",
+        "courses": [
+            {
+                "id": 1,
+                "name": "Maths"
+            }
+        ]
+    }
+    
+    
+ response
+ 
+ {
+        "id": 3,
+        "name": "Sridhar",
+        "courses": [
+            {
+                "id": 1,
+                "name": "Maths"
+            }
+        ]
+    }
